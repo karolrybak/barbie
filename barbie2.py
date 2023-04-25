@@ -15,7 +15,7 @@ import html
 import urllib
 import base64
 
-openai.api_key = "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"
+openai.api_key = ""
 
 chat_context = {}
 
