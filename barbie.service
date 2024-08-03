@@ -1,0 +1,9 @@
+Unit]
+Description=Barbie service for user activity monitoring
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+ExecStart=/home/ehata/ai/barbie/.venv/bin/python /home/<username>/service.py
+[Install]
+WantedBy=multi-user.target

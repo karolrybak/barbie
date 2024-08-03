@@ -1,0 +1,6 @@
+TTS
+openai
+PyAutoGUI
+openai-whisper
+celery
+openwakeword
